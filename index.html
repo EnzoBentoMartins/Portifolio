@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Enzo Martins</title>
+</head>
+
+<body>
+    <header id="header">
+        <div id="hd-container">
+            <div id="hd-container-name">
+                <h3 id="hd-name"></h3>
+            </div>
+            <div id="hd-container-links">
+                <a href="#bd-sobre-mim" class="hd-links">Sobre Mim</a>
+                <a href="#bd-tecs" class="hd-links">Técnologias</a>
+                <a href="#bd-projects" class="hd-links">Projetos</a>
+                <a href="#ft-contatos" class="hd-links">Contatos</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="body">
+        <div id="bd-container">
+            <div id="bd-descript">
+                <h3 class="bd-descript-comp">Olá! Eu sou</h3>
+                <h1 class="bd-descript-name">Enzo Martins</h1>
+                <h3 class="bd-descript-comp">Front-End Developer</h3>
+                <div id="bd-descript-buttons">
+                    <a href="https://www.linkedin.com/in/enzo-martins-014a47210/">
+                        <button id="bd-btn1" class="bd-btn">
+                            LinkedIn
+                    </a>
+                    </button>
+                    <a href="https://github.com/EnzoBentoMartins">
+                        <button id="bd-btn2" class="bd-btn">GitHub</button>
+                    </a>
+                </div>
+            </div>
+            <div id="bd-image">
+                <div id="bd-image-foto"></div>
+            </div>
+        </div>
+
+        <div id="bd-sobre-mim">
+            <div id="bd-photo-background">
+                <div id="bd-photo-container">
+                    <div id="bd-photo-img"></div>
+                </div>
+            </div>
+            <div id="bd-sobre-script">
+                <h3 id="bd-sobre-title">Sobre mim</h3>
+                <p class="bd-sobre-desc">Meu nome é Enzo Bento Martins, estudo Web Front-End,<br>
+                    sou autodidata e um ano e meio atrás larguei meu emprego <br>
+                    em uma oficina mecanica para estudar desenvolvimento web. <br>
+                    Me dediquei bastante durante esse tempo, e agora está<br> na hora
+                    de entrar no mercado de trabalho. <br>Em meu portifólio pretendo mostrar minhas habilidades e meus
+                    <br>
+                    projetos pessoais que fiz durante meus estudos.
+                </p>
+                <div id="bd-icons-container">
+                    <img id="python" class="bd-icons" src="./images/python.png" alt="">
+                    <img id="html" class="bd-icons" src="./images/html.png" alt="">
+                    <img id="css" class="bd-icons" src="./images/css.png" alt="">
+                    <img id="jq" class="bd-icons" src="./images/jq.png" alt="">
+                    <img id="js" class="bd-icons" src="./images/js.png" alt="">
+                    <img id="react" class="bd-icons" src="./images/react.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="bd-tecs">
+            <div id="bd-tecs-container">
+                <h3 id="bd-tecs-title">Técnologias</h3>
+                <div id="bd-icons-tecs">
+                    <div id="bd-icons-cont-tecs">
+                        <img onmouseout="mouseOut()" id="python-tecs" class="bd-tecs" src="./images/python.png">
+                        <img onmouseout="mouseOut()" id="html-tecs" class="bd-tecs" src="./images/html.png" alt="">
+                        <img onmouseout="mouseOut()" id="css-tecs" class="bd-tecs" src="./images/css.png" alt="">
+                        <img onmouseout="mouseOut()" id="jq-tecs" class="bd-tecs" src="./images/jq.png" alt="">
+                        <img onmouseout="mouseOut()" id="js-tecs" class="bd-tecs" src="./images/js.png" alt="">
+                        <img onmouseout="mouseOut()" id="react-tecs" class="bd-tecs" src="./images/react.png" alt="">
+                    </div>
+                    <div id="bd-descript-tecs">
+                        <p id="bd-descript-t">
+                            Passe o mouse sobre os icones das tecs!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="bd-projects">
+            <h3 id="bd-proj-title">Projetos</h3>
+            <div id="bd-proj-grid">
+                <div id="bd-projects-container">
+                    <a href="https://enzobentomartins.github.io/Jogo-Da-Mem-ria/">
+                        <div id='jm' class="projects">
+                            <div class="s-proj">JOGO DA MEMÓRIA</div>
+                        </div>
+                    </a>
+                    <a href="https://enzobentomartins.github.io/Jogo-Da-Velha/">
+                        <div id="jv" class="projects">
+                            <div class="s-proj">JOGO DA VELHA</div>
+                        </div>
+                    </a>
+                    <a href="https://enzobentomartins.github.io/Churrascometro/">
+                        <div id="cm" class="projects">
+                            <div class="s-proj">CHURRASCOMETRO</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/EnzoBentoMartins/Generic-Blockchain/blob/master/blockchain.py">
+                        <div id="bc" class="projects">
+                            <div class="s-proj">BLOCK-CHAIN</div>
+                        </div>
+                    </a>
+                    <a href="https://enzobentomartins.github.io/Money-Conversor/">
+                        <div id="mc" class="projects">
+                            <div class="s-proj">MONEY COVERSOR</div>
+                        </div>
+                    </a>
+                    <div id="eb" class="projects">
+                        <div class="s-proj">EM BREVE...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="ft-contatos">
+            <div id="ft-contatos-container">
+                <div id="ft-contatos-title-cont">
+                    <h3 id="ft-contatos-title">Contatos</h3>
+                </div>
+                <div id="ft-contatos-lista-cont">
+                    <ul>
+                        <li id="ft-lk" class="ft-itens">
+                            <a href="https://www.linkedin.com/in/enzo-martins-014a47210/">
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li id="ft-gh" class="ft-itens">
+                            <a href="https://github.com/EnzoBentoMartins">
+                                GitHub
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li id="ft-wa" class="ft-itens">(48) 9 9615-1880</li>
+                        <li id="ft-em" class="ft-itens">enzob.martins45@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
